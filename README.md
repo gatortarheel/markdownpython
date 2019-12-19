@@ -4,6 +4,7 @@ Jupyter notebooks for basic lists, dictionaries and data fundamentals.
 ## Setup
 You will need Jupyter Notebook in your Cloud9 environment.  Follow the instructions from the Serverless API Crash Course to get your Cloud9 environment up and running.  Then, come back to the setup for this particular assignment. 
 
+
 In Cloud9, stay in your environment in the terminal.  ("name/environment") 
 
 Python is automatically downloaded in Cloud9 but to double check: 
@@ -15,7 +16,7 @@ Jupyter will need to be downloaded onto your Cloud9 environment
 * type "sudo python -m pip install jupyter" to install jupyter 
 * To start your instance of Jupyter notebook, type "jupyter notebook --ip=0.0.0.0 --port=8080 --no-browser"
 * This will load a Jupyter notebook instance - the next section will explain how to navigate to this notebook 
-
+<img src="cloud9jupyter.gif">
 Next, you want to access your Jupyter notebook from your local browser but still connected to your Cloud9 instance to create, essentially, a cloud-based Jupyter notebook.  There are 3 components of the URL needed to access your notebook. 
 * Your Cloud9 ID which is the last part of the URL running your Cloud9 IDE (if my URL is: https://us-east-1.console.aws.amazon.com/cloud9/ide/dcbff7a4ca74491e92064bfc5c566f63, the part I need is dcbff7a4ca74491e92064bfc5c566f63) 
 * Add this string so the notebook is connected to your Cloud9 ".vfs.cloud9.us-east-1.amazonaws.com" 
