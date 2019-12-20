@@ -50,14 +50,15 @@ Return to these instructions when Cloud9 is running.  _Stay in your Cloud9 envir
 
 This URL should take you to your Jupyter notebook where you should see the cloned repo folder for this assignment.  Open the assignment folder, click on the notebook file (Data 1.ipynb) and you are ready to start the assignment! 
 
-
 ## Git Process
 
- * GitHub Classroom creates a private repo for your assignment.
- * Clone this repo in your Cloud9 environment with `git clone <repo_name>`.
- <img src="gitcloneelempython.gif"><br/>
- * Do your work on the `dev` branch. Execute `git checkout -b dev` in the Cloud9 console.<br/>
- <img src="gitcheckout1.jpg" style="width: 50%;	height: 50%;">
+ * GitHub Classroom created a private repo for your assignment.
+ * Clone this repo in your Cloud9 environment with `git clone <repo_name>`.  More copy and paste demonstrated below.
+  
+ ![Alternate text](images/gitcloneelempython.gif)  
+ 
+ * To do your work on the `dev` branch (required), execute `git checkout -b dev` in the Cloud9 console.<br/>
+ 
  * You will be saving your notebook using Jupyter. Jupyter will create many additional autosave files. You only need to commit changes to the main notebook file.
  * Commit and push to your `dev` branch as needed.
  * To _submit_ your assignment, create a PR (Pull Request) [in GitHub?]. This will signal us that your assignment is ready for review.
