@@ -1,14 +1,21 @@
-Test 1 
 # Elementary Python Data 1
-Jupyter notebooks for basic lists, dictionaries and data fundamentals.
+## Objective
+Set up a Jupyter environment for future projects.
+Jupyter notebooks are good for basic lists, dictionaries and data fundamentals.
+
+## Bookmarks
+<a href="captech-training.signin.aws.amazon.com">CapTech AWS Training</a>
 
 ## Setup
-You will need Jupyter Notebook in your Cloud9 environment.  Follow the instructions from the Serverless API Crash Course to get your Cloud9 environment up and running.  Then, come back to the setup for this particular assignment. 
+You will need Jupyter Notebook in your Cloud9 environment.  
+Follow the instructions from the <a href="https://cap3totl.com/serverless-api-crash-course.html">Serverless API Crash Course</a> 
+to get your Cloud9 environment up and running.  Then, come back to the setup for this particular assignment. <br/>
+<img src="aws-signin1.jpg" style="width: 20%;	height: 20%;">
 
 
 In Cloud9, stay in your environment in the terminal.  ("name/environment") 
 
-Python is automatically downloaded in Cloud9 but to double check: 
+Double-check that python is installed in your Cloud9: 
 * type "python" 
 * the command prompt should switch to a python environment with your version of python listed with details and ">>>" at the new typing location 
 * type "quit()" to exit the python environment 
@@ -29,12 +36,14 @@ This URL should take you to your Jupyter notebook where you should see the clone
 
 ## Git Process
 
- * Classroom creates a private repo for your assignment.
- * Clone this repo in your Cloud9 environment. That is `git clone <repo_name>`.
- * Do your work on the `dev` branch. That is `git checkout dev` in the Cloud9 console.
+ * GitHub Classroom creates a private repo for your assignment.
+ * Clone this repo in your Cloud9 environment with `git clone <repo_name>`.
+ <img src="gitcloneelempython.gif"><br/>
+ * Do your work on the `dev` branch. Execute `git checkout -b dev` in the Cloud9 console.<br/>
+ <img src="gitcheckout1.jpg" style="width: 50%;	height: 50%;">
  * You will be saving your notebook using Jupyter. Jupyter will create many additional autosave files. You only need to commit changes to the main notebook file.
- * Commit and push to the `dev` branch as much as you want -- as much as needed.
- * To _submit_ your assignment will be to create a PR (Pull Request) in your repo. This will signal us that your assignment is ready for review.
+ * Commit and push to your `dev` branch as needed.
+ * To _submit_ your assignment, create a PR (Pull Request) [in GitHub?]. This will signal us that your assignment is ready for review.
 
 ## Minimum Requirements
 
