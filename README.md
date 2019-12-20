@@ -23,7 +23,7 @@ Return to these instructions when Cloud9 is running.  _Stay in your Cloud9 envir
 * The command prompt switches to a python environment with your python version listed with details and `>>>`  
 * Type `quit()` to exit the python environment  
   
-![Alternate text](images/pythonproof.jpg)  
+![Alternate text](images/pythonproof.JPG)  
 
 ### Install Jupyter ###
 
