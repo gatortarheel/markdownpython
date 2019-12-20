@@ -21,8 +21,8 @@ Double-check that python is installed in your Cloud9:
 * type "quit()" to exit the python environment 
 
 Jupyter will need to be downloaded onto your Cloud9 environment 
-* type "sudo python -m pip install jupyter" to install jupyter 
-* To start your instance of Jupyter notebook, type "jupyter notebook --ip=0.0.0.0 --port=8080 --no-browser"
+* type `sudo python -m pip install jupyter` to install jupyter 
+* To start your instance of Jupyter notebook, type `jupyter notebook --ip=0.0.0.0 --port=8080 --no-browser`
 * This will load a Jupyter notebook instance - the next section will explain how to navigate to this notebook 
 <img src="cloud9jupyter.gif">
 Next, you want to access your Jupyter notebook from your local browser but still connected to your Cloud9 instance to create, essentially, a cloud-based Jupyter notebook.  There are 3 components of the URL needed to access your notebook. 
