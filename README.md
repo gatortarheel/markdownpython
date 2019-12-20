@@ -40,7 +40,7 @@ Return to these instructions when Cloud9 is running.  _Stay in your Cloud9 envir
 3. Copy the location of your AWS environment `us-east`, `us-east-2` of your Cloud9 instance and paste it over the `[awslocation]`  
 
 4. From the terminal, copy the token portion of the Jupyter instance.  Paste it over the `[token]`
- ![Alternate text](images/grabthetoken.jpg)  
+ ![Alternate text](images/grabthetoken.JPG)  
 
 **Sample Copy Paste Operation**
 ![Alternate text](images/cloud9jupyter.gif)  
