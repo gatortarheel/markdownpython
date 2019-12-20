@@ -15,38 +15,38 @@ Teams Wray Mills for access.
 ## Setup  
 
 Follow the instructions from [Serverless API Crash Course](https://cap3totl.com/serverless-api-crash-course.html) to get your Cloud9 environment up and running.  
-Return to these instructions when Cloud9 is running.  
+Return to these instructions when Cloud9 is running.  _Stay in your Cloud9 environment in the terminal.  `("name/environment")`_
 
-Stay in your Cloud9 environment in the terminal.  ("name/environment") 
+### To double-check your Cloud9 installation of python ###
 
-### To double-check your Cloud9 installation of python  
-
-* type `python`
-* the command prompt switches to a python environment with your python version listed with details and `>>>`  
-* type `quit()` to exit the python environment  
+* Type `python`
+* The command prompt switches to a python environment with your python version listed with details and `>>>`  
+* Type `quit()` to exit the python environment  
   
-<img src="pythonproof.jpg" style="width: 80%; height: 80%;" />
-("pythonproof.jpg" "Logo Title Text 1")  
-![Alternate text](/pythonproof.jpg)
-![GitHub Logo](/pythonproof.JPG)
-pythonproof.JPG
+![Alternate text](images/pythonproof.jpg)  
 
-pythonproof.jpg
+### Install Jupyter ###
 
-
-<hr />
-<h2>Install Jupyter</h2>
-
-Download Jupyter to your Cloud9 environment 
-* type `sudo python -m pip install jupyter` to install jupyter 
+* To install Jupyter type `sudo python -m pip install jupyter`  
 * To start your instance of Jupyter notebook, type `jupyter notebook --ip=0.0.0.0 --port=8080 --no-browser`
-* This will load a Jupyter notebook instance - the next section will explain how to navigate to this notebook 
-<img src="cloud9jupyter.gif">
-Next, you want to access your Jupyter notebook from your local browser but still connected to your Cloud9 instance to create, essentially, a cloud-based Jupyter notebook.  There are 3 components of the URL needed to access your notebook. 
-* Your Cloud9 ID which is the last part of the URL running your Cloud9 IDE (if my URL is: https://us-east-1.console.aws.amazon.com/cloud9/ide/dcbff7a4ca74491e92064bfc5c566f63, the part I need is dcbff7a4ca74491e92064bfc5c566f63) 
-* Add this string so the notebook is connected to your Cloud9 ".vfs.cloud9.us-east-1.amazonaws.com" 
-* Add the token that is returned after the "jupyter notebook --ip..." line is run (if this is returned: http://(ip-172-31-43-116 or 127.0.0.1):8080/?token=f0fd2088ff3226bc2df8fb77098f1ebc3178b9bcb758d9c3, you need: ?token=f0fd2088ff3226bc2df8fb77098f1ebc3178b9bcb758d9c3 added to the end) 
-* In summary: my URL to add to a new tab is: http://dcbff7a4ca74491e92064bfc5c566f63.vfs.cloud9.us-east-1.amazonaws.com?token=f0fd2088ff3226bc2df8fb77098f1ebc3178b9bcb758d9c3
+* This will load a Jupyter notebook instance  
+
+ ### Navigate to Jupyter ###  
+ To navigate to this notebook, you will need to copy and paste 3 parts of AWS and Jupyter information.  
+  
+1. Copy/paste this url template into a text editor `https://[ide].vfs.cloud9.[awslocation].amazonaws.com?token=[token]`
+2. Copy the part of your Cloud9 instance after the /ide/ and paste it over the `[ide]`  
+
+3. Copy the location of your AWS environment `us-east`, `us-east-2` of your Cloud9 instance and paste it over the `[awslocation]`  
+
+4. From the terminal, copy the token portion of the Jupyter instance.  Paste it over the `[token]`
+ ![Alternate text](images/grabthetoken.jpg)  
+
+**Sample Copy Paste Operation**
+![Alternate text](images/cloud9jupyter.gif)  
+
+5. Copy and Paste the new URL into a new tab.
+
 
 This URL should take you to your Jupyter notebook where you should see the cloned repo folder for this assignment.  Open the assignment folder, click on the notebook file (Data 1.ipynb) and you are ready to start the assignment! 
 
