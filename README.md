@@ -1,26 +1,43 @@
 # Elementary Python Data 1
+
 ## Objective
+
 Set up a Jupyter environment for future projects.
 Jupyter notebooks are good for basic lists, dictionaries and data fundamentals.
 
 ## Bookmarks
-<a href="captech-training.signin.aws.amazon.com">CapTech AWS Training</a>
 
-## Setup
-You will need Jupyter Notebook in your Cloud9 environment.  
-Follow the instructions from the <a href="https://cap3totl.com/serverless-api-crash-course.html">Serverless API Crash Course</a> 
-to get your Cloud9 environment up and running.  Then, come back to the setup for this particular assignment. <br/>
-<img src="aws-signin1.jpg" style="width: 20%;	height: 20%;">
+[CapTech AWS Training](captech-training.signin.aws.amazon.com)  
+Teams Wray Mills for access.  
+[Serverless API Crash Course](https://cap3totl.com/serverless-api-crash-course.html)  
+<!-- <img src="aws-signin1.jpg" style="width: 20%; height: 20%;"> -->
+
+## Setup  
+
+Follow the instructions from [Serverless API Crash Course](https://cap3totl.com/serverless-api-crash-course.html) to get your Cloud9 environment up and running.  
+Return to these instructions when Cloud9 is running.  
+
+Stay in your Cloud9 environment in the terminal.  ("name/environment") 
+
+### To double-check your Cloud9 installation of python  
+
+* type `python`
+* the command prompt switches to a python environment with your python version listed with details and `>>>`  
+* type `quit()` to exit the python environment  
+  
+<img src="pythonproof.jpg" style="width: 80%; height: 80%;" />
+("pythonproof.jpg" "Logo Title Text 1")  
+![Alternate text](/pythonproof.jpg)
+![GitHub Logo](/pythonproof.JPG)
+pythonproof.JPG
+
+pythonproof.jpg
 
 
-In Cloud9, stay in your environment in the terminal.  ("name/environment") 
+<hr />
+<h2>Install Jupyter</h2>
 
-Double-check that python is installed in your Cloud9: 
-* type "python" 
-* the command prompt should switch to a python environment with your version of python listed with details and ">>>" at the new typing location 
-* type "quit()" to exit the python environment 
-
-Jupyter will need to be downloaded onto your Cloud9 environment 
+Download Jupyter to your Cloud9 environment 
 * type `sudo python -m pip install jupyter` to install jupyter 
 * To start your instance of Jupyter notebook, type `jupyter notebook --ip=0.0.0.0 --port=8080 --no-browser`
 * This will load a Jupyter notebook instance - the next section will explain how to navigate to this notebook 
